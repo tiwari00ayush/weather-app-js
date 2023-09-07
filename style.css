@@ -56,7 +56,9 @@ body {
 .search button img {
   height: 60%;
 }
-
+.weather {
+  display: none;
+}
 .weather .weather-icon {
   width: 160px;
   margin-top: 10px;
@@ -76,4 +78,17 @@ body {
 .col img {
   width: 40px;
   margin-right: 10px;
+}
+
+.error {
+  display: none;
+  margin-top: 20px;
+}
+.error p {
+  font-size: 30px;
+  color: white;
+  background-color: rgb(215, 77, 77);
+  padding: 10px 0;
+  border: 0;
+  border-radius: 20px;
 }
